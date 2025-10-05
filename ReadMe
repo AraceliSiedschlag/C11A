@@ -2,6 +2,15 @@ Authors: Araceli Siedschlag, Gwen Sabol
 Section B 1pm
 Collaborators:
 
+Figuring out how to write to a file:
+https://www.geeksforgeeks.org/java/filewriter-class-in-java/
+https://docs.oracle.com/javase/8/docs/api/java/io/PrintWriter.html
 
 
 Answer to question "What are 3 good practices related to exception handling?"
+One good practice related to exception handling is to include the stack-trace so you can see
+where an error is originating from in order to fix the root cause. Another good practicce
+related to error handeling is to provide meaningful exception messages so you know what is 
+happening or why you got the error in the first place rather than a general message. Finally,
+a good practice related to exception handeling is to avoid empty catch blocks or ones that just
+return null.
